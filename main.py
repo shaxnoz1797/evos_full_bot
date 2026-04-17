@@ -7,7 +7,14 @@ from messages import message_handler
 from inlines import inline_handler
 import globals
 ADMIN_ID = 5843211950
-TOKEN = "8570532129:AAF9jYYV5QANhlzUzVGoVMsoDZjfGI4ZitE"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TOKEN = os.getenv("8602551942:AAFa0JuhPrqvzEVCkFLOE4Oe2lo0lwEIPG4")
+
+
 
 db = Database("db-evos.db")
 
