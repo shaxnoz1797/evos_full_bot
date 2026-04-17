@@ -29,7 +29,7 @@ def contact_handler(update, context):
     db.update_user_data(user.id, "phone_number",message)
     check(update,context)
 
-#******************************************* lesson-4 *******************************************************
+
 def location_handler(update, context):
     db_user = db.get_user_by_chat_id(update.message.from_user.id)
     location = update.message.location
