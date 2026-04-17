@@ -55,7 +55,8 @@ def message_handler(update, context):
         else:
             check(update, context)
 
-#*************************************************** lesson-4 ***************************************************
+
+
     elif state == 2:
         if message == globals.BTN_ORDER[db_user['lang_id']]:
             categories = db.get_categories_by_parent()

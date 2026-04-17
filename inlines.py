@@ -6,7 +6,8 @@ import globals
 
 db = Database("db-evos.db")
 
-#*********************************************  *******************************************************
+
+
 
 def inline_handler(update, context):
 

@@ -166,7 +166,7 @@ class Database:
         products = dict_fetchall(self.cur)
         return products
 
-#****************************************************************************************************
+
 
 def dict_fetchall(cursor):
     columns = [col[0] for col in cursor.description]
