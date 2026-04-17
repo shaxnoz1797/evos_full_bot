@@ -111,7 +111,7 @@ class Database:
         return category
 
 
-######### new ##############
+
     def get_products_by_category(self, category_id):
         self.cur.execute("""select * from product where category_id = ?""", (category_id, ))
         products = dict_fetchall(self.cur)
@@ -123,7 +123,7 @@ class Database:
         return product
 
 
-# lesson-4 ####################
+
 
     def get_product_for_cart(self, product_id):
         self.cur.execute(

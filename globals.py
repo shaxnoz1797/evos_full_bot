@@ -76,7 +76,7 @@ BTN_SETTINGS = {
     3: "⚙️Settings"
 }
 
-########## lesson-3 ###########
+
 TEXT_PRODUCT_PRICE = {
     1: "Narx:",
     2: "Цена:",
@@ -90,7 +90,7 @@ TEXT_PRODUCT_DESC = {
 
 
 
-# lesson-4 ##############
+
 
 AT_KORZINKA = {
     1: "Savatchada",
@@ -142,4 +142,3 @@ SEND_LOCATION = {
     2: "📍 Отправить местоположение",
     3: "📍 Send location!"
 }
-#########################*****************************************************

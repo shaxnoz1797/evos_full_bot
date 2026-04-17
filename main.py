@@ -65,7 +65,7 @@ def location_handler(update, context):
         longitude=float(location.longitude)
     )
     methods.send_main_menu(context, update.message.from_user.id, db_user['lang_id'])
-########################
+
 
 def main():
     updater = Updater(TOKEN)
