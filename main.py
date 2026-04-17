@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("8602551942:AAFa0JuhPrqvzEVCkFLOE4Oe2lo0lwEIPG4")
+TOKEN = os.getenv("BOT_TOKEN")
 
 
 
